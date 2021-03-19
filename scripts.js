@@ -38,13 +38,22 @@ function printFruit() {
   console.log(fruits[0]);
   //favFruit set to "peach"
   let favFruit = fruits[1];
+  //leastFav is "banana"
+  let leastFav = fruits[2];
   //function printFavFruit
   function printFavFruit() {
     //log favFruit to console
     console.log(favFruit);
   }
+  console.log(leastFav);
   //call printFavFruit
   printFavFruit();
 }
 //call printFruit
 printFruit();
+//call function
+greeting();
+//create greeting function
+function greeting() {
+  console.log(`Hello ${name}`);
+}
