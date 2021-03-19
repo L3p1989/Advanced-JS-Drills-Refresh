@@ -38,13 +38,14 @@ function printFruit() {
   console.log(fruits[0]);
   //favFruit set to "peach"
   let favFruit = fruits[1];
+  //function printFavFruit
+  function printFavFruit() {
+    //log favFruit to console
+    console.log(favFruit);
+  }
 }
 //call printFruit
 printFruit();
-//function printFavFruit
-function printFavFruit() {
-  //log favFruit to console
-  console.log(favFruit);
-}
+
 //call printFavFruit
-printFavFruit();
+//printFavFruit();
