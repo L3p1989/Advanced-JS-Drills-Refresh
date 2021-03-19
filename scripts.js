@@ -36,4 +36,6 @@ let favFruit;
 function printFruit() {
   //log "strawberry" to console
   console.log(fruits[0]);
+  //favFruit set to "peach"
+  favFruit = fruits[1];
 }
