@@ -55,5 +55,12 @@ printFruit();
 greeting();
 //create greeting function
 function greeting() {
+  //log "Hello L3p" to console
   console.log(`Hello ${name}`);
 }
+//call someFunc
+somefunc();
+//create someFunc
+let someFunc = function () {
+  alert("this is someFunc");
+};
