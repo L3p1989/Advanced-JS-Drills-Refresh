@@ -30,3 +30,5 @@ function findAvg(a, b) {
 }
 //fruits array
 let fruits = ["strawberry", "peach", "banana"];
+//global variable
+let favFruit;
