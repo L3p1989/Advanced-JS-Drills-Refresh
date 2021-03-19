@@ -31,13 +31,13 @@ function findAvg(a, b) {
 //fruits array
 let fruits = ["strawberry", "peach", "banana"];
 //global variable
-let favFruit;
+//let favFruit;
 //pintFruit function
 function printFruit() {
   //log "strawberry" to console
   console.log(fruits[0]);
   //favFruit set to "peach"
-  favFruit = fruits[1];
+  let favFruit = fruits[1];
 }
 //call printFruit
 printFruit();
