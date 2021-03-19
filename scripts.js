@@ -41,3 +41,8 @@ function printFruit() {
 }
 //call printFruit
 printFruit();
+//function printFavFruit
+function printFavFruit() {
+  //log favFruit to console
+  console.log(favFruit);
+}
