@@ -39,3 +39,5 @@ function printFruit() {
   //favFruit set to "peach"
   favFruit = fruits[1];
 }
+//call printFruit
+printFruit();
