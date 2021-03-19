@@ -28,3 +28,5 @@ function findAvg(a, b) {
   //returns answer
   return answer;
 }
+//fruits array
+let fruits = ["strawberry", "peach", "banana"];
